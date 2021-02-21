@@ -1,7 +1,7 @@
 # Imperial_Hackathon_2021
 
 ## Introduction
-One of the most damaging effects that climate change is having is on crop yields. Extreme wether is more comon now than years ago, reason for wich due to droughts, floods, high and low temperatures there is a need to model the behaviour that we are experimenting.
+Crop yields are not exempt of suffering from the manifold damaging effects climate change is responisble of. Extreme weather is more common now than ages ago, reason for which, droughts, floods, high and low temperatures there is a need to model the behaviour that we are experimenting.
 
 ## Pipeline
 ![Pipeline](images/pipeline.png)
@@ -68,7 +68,4 @@ Two aproaches have been made in order to predict whether a year would be good or
 In first place, based on the normalized data for each county and yield crop a SARIMA model has been applied in order to predict the following year. Eben thought not being the most proper method, has enabled us to learn about the field. Now we would do a SARIMAX using exogenous variables, in with the exogenous variable would be the EVI indicator. It is known that the crop is done in September and October, for that reason doing an average between the previous months (May-Agst) and using it as the exogen will enable us when it comes to the next year to provide it and having the approximate value of the crop. 
 Instead of returning us a value and using it directly the best would be to have a trust band whith a width of 20% respect to the average of the 
 wever a multivariable apporach would must be a further approach in order to m
-
-![Time Series](images/proposal.jpeg)
-
 
