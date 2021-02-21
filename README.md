@@ -55,6 +55,8 @@ Thanks to the insight provided in the previous section can be seen how the tempe
 Here can be seen for each year which counties have missing values:
 ![Missing](images/unknown_temperature_1.jpeg)
 ![Missing](images/unknown_temperature_2.jpeg)
+![Missing](images/unknown_temperature_3.jpeg)
+
 
 
 
