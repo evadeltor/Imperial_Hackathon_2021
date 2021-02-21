@@ -33,4 +33,14 @@ To do so, we first filtered the dataset to obtain those observations with temper
 
 ![extreme](images/extreme.png)
 
+From here on a study should be performed to analyze these results with the crop yields of that year in that county.
+
+
+#### Null values
+In the temperature dataset we have found some null values, reason for which they must be filled. Here can be found the counties with missing values.
+```
+{'ALEXANDER': [2012, 2013, 2015], 'BOND': [2016, 2018, 2013], 'BOONE': [2012], 'BROWN': [2019], 'CLARK': [2016, 2019, 2013], 'CLAY': [2012], 'COLES': [2016], 'COOK': [2017, 2018, 2008, 2011, 2012, 2013, 2014, 2015], 'CRAWFORD': [2016], 'CUMBERLAND': [2018], 'EDGAR': [2019], 'EDWARDS': [2019, 2014, 2015], 'FAYETTE': [2018], 'HAMILTON': [2019, 2014, 2015], 'HANCOCK': [2019], 'HARDIN': [2016, 2017, 2018, 2019, 2008, 2009, 2010, 2011, 2013, 2014, 2015], 'JACKSON': [2015], 'JEFFERSON': [2012], 'JERSEY': [2018], 'JOHNSON': [2018, 2019, 2012, 2015], 'KANKAKEE': [2019], 'KENDALL': [2014, 2015], 'LAKE': [2010, 2011, 2012, 2018], 'LAWRENCE': [2016, 2012, 2013], 'MASON': [2018], 'MASSAC': [2018, 2012], 'MCHENRY': [2019], 'MENARD': [2018, 2019, 2013], 'PERRY': [2019], 'PIKE': [2019], 'POPE': [2017, 2018, 2019, 2008, 2009, 2010, 2011, 2013], 'PULASKI': [2018], 'PUTNAM': [2019, 2012], 'RANDOLPH': [2013], 'RICHLAND': [2019], 'ROCK ISLAND': [2019, 2012], 'SALINE': [2019], 'SCOTT': [2018, 2019], 'UNION': [2018, 2015], 'VERMILION': [2019], 'WABASH': [2018], 'WAYNE': [2016, 2019, 2015], 'WILL': [2016, 2019]}
+```
+Thanks to the insight provided in the previous section can be seen how the temperatures in one county can have a symilar effect in the boudaries of it. Also some statistical tests have been done with a positive result indicatig that similar temperatures are found in nearby counties. For that reason, due to the fact that in the temperature dataset we have missig values, our procedure has been to full them with the average of the adjacent counties.
+
 
