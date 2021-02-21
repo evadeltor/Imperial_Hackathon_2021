@@ -5,7 +5,7 @@ One of the most damaging effects that climate change is having is on crop yields
 
 ## Pipeline
 ![Pipeline](images/pipeline.png)
-### Data Analysis
+## Data Analysis
 #### Normalisation
 At first glance, the data in the Yield field dataset (IL_yield.csv) follows an increasing tendency, similarly to an exponential behaviour. Such behaviour could be caused by the population growth over the years, increase of land devoted to agricultural purposes, acquisition of more advanced and specialized machinery (irrigation techniques, parameter modelling with GPS...), the discovery of more optimal harvesting methodologies, among others. Hence, the application of a normalization method to fairly compare the time evolution between the crop yield together with other explanatory variables is required. 
 
@@ -60,7 +60,12 @@ Here can be seen for each year which counties have missing values:
 
 
 
-## Conclusions Insight
+### Conclusions
 In brief, the nan values of temperature have been filed based on the study made in which the hypothesis of the relationship between between the nearest counties temperature has not been denied. On the other side the nan values in the crop yield are filled thanks to the comprehension of the behaviour among all the years.
 
+## Modeling
+Two aproaches have been made in order to predict whether a year would be good or bad.
+In first place, based on the normalized data for each county and yield crop a SARIMA model has been applied in order to predict the following year. Eben thought not being the most proper method, has enabled us to learn about the field. Now we would do a SARIMAX using exogenous variables, in with the exogenous variable would be the EVI indicator. It is known that the crop is done in September and October, for that reason doing an average between the previous months (May-Agst) and using it as the exogen will enable us when it comes to the next year to provide it and having the approximate value of the crop. 
+Instead of returning us a value and using it directly the best would be to have a trust band whith a width of 20% respect to the average of the 
+wever a multivariable apporach would must be a further approach in order to m
 
