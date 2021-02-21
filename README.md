@@ -27,3 +27,10 @@ As can be seen the 2011 was the year in which less yield was cropped. That shoul
 
 ![BoxPlot](images/boxplots.jpeg)
 
+#### Hypothesis test 
+According to the literature provided [2] , temperatures above 30ºC are considered extreme and seriously damage crop yield. Consequently, the temperature dataset has been deeply studied to assess the counties and years in which temperature records exceeded that threshold with the aim to give an insight in the correlation of the crop yield performance with extreme weather events. 
+To do so, we first filtered the dataset to obtain those observations with temperatures above 30ºC. In addition, to account not only for the presence of a single extreme value in a given month, but of a certain amount of them, the time difference between readings has been computed. Since temperature readings are given the days 1, 15, 28 days of each month. The amount of continuous extreme events that have happened per county and per year have been assessed so as to give insights on the correlation between low crop yield performance and frequency of extreme events. 
+
+![extreme](images/extreme.png)
+
+
