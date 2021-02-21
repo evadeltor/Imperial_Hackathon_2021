@@ -53,10 +53,11 @@ In the temperature dataset we have found some null values, reason for which they
 ```
 Thanks to the insight provided in the previous section can be seen how the temperatures in one county can have a symilar effect in the boudaries of it. Also some statistical tests have been done with a positive result indicatig that similar temperatures are found in nearby counties. For that reason, due to the fact that in the temperature dataset we have missig values, our procedure has been to full them with the average of the adjacent counties.
 Here can be seen for each year which counties have missing values:
+![Missing](images/unknown_temperature_1.jpeg)
+![Missing](images/unknown_temperature_2.jpeg)
 
-![Missing](images/missing_values_counties.png)
 
 
-
-## Conclusions
+## Conclusions Insight
+In brief, the nan values of temperature have been filed based on the study made in which the hypothesis of the relationship between between the nearest counties temperature has not been denied. On the other side the nan values in the crop yield are filled thanks to the comprehension of the behaviour among all the years for 
 
