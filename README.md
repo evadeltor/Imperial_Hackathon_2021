@@ -69,3 +69,6 @@ In first place, based on the normalized data for each county and yield crop a SA
 Instead of returning us a value and using it directly the best would be to have a trust band whith a width of 20% respect to the average of the 
 wever a multivariable apporach would must be a further approach in order to m
 
+![Time Series](images/proposal.jpeg)
+
+
