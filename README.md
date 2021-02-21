@@ -32,7 +32,7 @@ As can be seen there is a season in which the EVI is higher, there is a substant
 In order to visualize it, can be seen how Hamilton has a significant change while Boone has a similiar behaviour.
 
 ![Line Chart Boone](images/boone_evi.png)
-![Line Chart Hamilton](images/hamilton_evi.pmg)
+![Line Chart Hamilton](images/hamilton_evi.png)
 
 
 
