@@ -61,5 +61,6 @@ Here can be seen for each year which counties have missing values:
 
 
 ## Conclusions Insight
-In brief, the nan values of temperature have been filed based on the study made in which the hypothesis of the relationship between between the nearest counties temperature has not been denied. On the other side the nan values in the crop yield are filled thanks to the comprehension of the behaviour among all the years for 
+In brief, the nan values of temperature have been filed based on the study made in which the hypothesis of the relationship between between the nearest counties temperature has not been denied. On the other side the nan values in the crop yield are filled thanks to the comprehension of the behaviour among all the years.
+
 
